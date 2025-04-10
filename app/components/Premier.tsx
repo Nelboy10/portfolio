@@ -16,7 +16,7 @@ const Premier = () => {
         <div className="col-span-7 text-center lg:text-left">
           <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold py-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
 
             <TypeAnimation
