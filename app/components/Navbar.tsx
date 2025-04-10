@@ -1,7 +1,8 @@
 "use client";
+
 import React, { useState } from "react";
 import Link from "next/link";
-import Navlink from "@/components/Navlink";
+import Navlink from "./Navlink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navlinks = [

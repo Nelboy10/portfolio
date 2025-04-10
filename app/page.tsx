@@ -1,8 +1,9 @@
-import Image from 'next/image';
-import Premier from '@/components/Premier'; 
-import Navbar from '@/components/Navbar';
-import Project from '@/components/project';
-import Contact from '@/components/contact';
+"use client";
+
+import Premier from './components/Premier';
+import Navbar from './components/Navbar';
+import Project from './components/project';
+import Contact from './components/contact';
 
 export default function Home() {
   return (
