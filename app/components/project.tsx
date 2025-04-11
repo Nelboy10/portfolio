@@ -15,7 +15,7 @@ const project = [
   {
     title: "travel website",
     description: "Time Tracking Software Used By Millions. ",
-    image: "/travel.png",
+    image: "/travel.PNG",
     demoLink: "https://travel-ashy-pi.vercel.app/",
     githubLink: "https://github.com/Nelboy10/travel.git",
   },
