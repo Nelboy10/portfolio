@@ -55,7 +55,7 @@ const Competence = () => {
             Mes Compétences Techniques
           </h2>
           <p className="text-lg text-[#ADB7BE] max-w-2xl mx-auto">
-            Technologies que j'utilise pour créer des solutions performantes et innovantes
+            Technologies que j&apos;utilise pour créer des solutions performantes et innovantes
           </p>
         </motion.div>
 
