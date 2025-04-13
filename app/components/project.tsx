@@ -20,11 +20,11 @@ const project = [
     githubLink: "https://github.com/Nelboy10/travel.git",
   },
   {
-    title: "Mobile E-commerce",
-    description: "A full-featured e-commerce mobile app built with React Native.",
-    image: "/ecommerce.webp",
+    title: " ABDIAS",
+    description: "Abdias est une application mobile visant a aider les agriculteurs",
+    image: "/mobile.PNG",
     demoLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Nelboy10/bdias.git",
   },
 ];
 
