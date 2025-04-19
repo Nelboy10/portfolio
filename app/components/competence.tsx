@@ -6,6 +6,7 @@ import { FaReact, FaPython } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiFlutter, SiDjango, SiTensorflow } from "react-icons/si";
 
 const technologies = [
+  
   {
     category: "Développement Web",
     items: [

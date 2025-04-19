@@ -1,13 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
+import Premier from "./Premier";
+import Contact from "./contact";
+import Competence from "./competence";
 import Link from "next/link";
 import Navlink from "./Navlink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navlinks = [
-  { title: "About", path: "#about" },
-  { title: "Projects", path: "#projects" },
+  { title: "About", path: "#premier" },
+  { title: "Projects", path: "competence" },
   { title: "Contact", path: "#contact" },
 ];
 

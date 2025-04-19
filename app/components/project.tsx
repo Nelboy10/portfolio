@@ -26,6 +26,13 @@ const project = [
     demoLink: "#",
     githubLink: "https://github.com/Nelboy10/bdias.git",
   },
+  {
+    title: " Admin ",
+    description: "utilisation de firebase ",
+    image: "/admin.PNG",
+    demoLink: "https://admin-ashy-nine.vercel.app/",
+    githubLink: "https://github.com/Nelboy10/admin.git",
+  },
 ];
 
 const Project = () => {
