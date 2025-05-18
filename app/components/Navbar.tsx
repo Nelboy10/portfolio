@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import Navlink from "./Navlink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navlinks = [
@@ -45,16 +44,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Menu desktop */}
-        <div className="hidden md:block">
-          <ul className="flex space-x-8">
-            {navlinks.map((link, index) => (
-              <li key={index}>
-                <Navlink href={link.path} title={link.title} />
-              </li>
-            ))}
-          </ul>
-        </div>
+        
       </div>
 
       {/* Menu mobile */}
@@ -63,11 +53,7 @@ const Navbar = () => {
           <ul className="flex flex-col space-y-4">
             {navlinks.map((link, index) => (
               <li key={index}>
-                <Navlink
-                  href={link.path}
-                  title={link.title}
-                  
-                />
+                
               </li>
             ))}
           </ul>
