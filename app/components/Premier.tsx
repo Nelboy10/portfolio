@@ -55,12 +55,12 @@ const Premier = () => {
 
         {/* Image à droite */}
         <div className="col-span-5 flex justify-center items-center">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[500px] sm:w-[300px] sm:h-[500px] lg:w-[300px] lg:h-[500px] overflow-hidden flex justify-center items-center shadow-2xl">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] overflow-hidden flex justify-center items-center shadow-2xl">
             <Image
               src="/nelpro.png"
               alt="Portrait de Nel, développeur web & mobile"
-              width={400}
-              height={400}
+              width={200}
+              height={200}
               className="object-cover w-full h-full"
               priority
             />

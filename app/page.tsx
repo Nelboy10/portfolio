@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Project from './components/project';
 import Contact from './components/contact';
 import Competence from './components/competence';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
       <div className="container mt-24 mx-auto "> 
         <Contact></Contact>
       </div>
-
-      
+      <div className="container mt-24 mx-auto "> 
+        <Footer/>
+      </div>
       
     </main>
   );
